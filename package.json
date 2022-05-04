@@ -1,0 +1,31 @@
+{
+  "name": "@beland/renderer-protocol",
+  "version": "1.0.0",
+  "description": "",
+  "main": "generated-ts/renderer_pb.js",
+  "typings": "generated-ts/renderer_pb.d.ts",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/belandproject/renderer-protocol.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/belandproject/renderer-protocol/issues"
+  },
+  "homepage": "https://github.com/belandproject/renderer-protocol#readme",
+  "dependencies": {
+    "@types/google-protobuf": "^3.15.6",
+    "google-protobuf": "^3.17.0"
+  },
+  "devDependencies": {
+    "ts-protoc-gen": "^0.15.0"
+  },
+  "files": [
+    "generated-ts",
+    "generated-cs",
+    "src"
+  ]
+}
